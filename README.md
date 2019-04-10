@@ -5,5 +5,5 @@
 <a href="http://wwer91.dothome.co.kr/">VIEW</a>
 
 <h2> 사이트 보기</h2>
-<p>2018.12.28 </p>
- <a href="https://wwer91.github.io/megabox/">VIEW</a>
+<p>2019.04.10 </p>
+ <a href="https://github.com/wwer91/megabox">VIEW</a>
