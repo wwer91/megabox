@@ -6,4 +6,4 @@
 
 <h2> 사이트 보기</h2>
 <p>2019.04.10 </p>
- <a href="https://github.com/wwer91/megabox">VIEW</a>
+ <a href="https://github.com/wwer91/megabox.git">VIEW</a>
