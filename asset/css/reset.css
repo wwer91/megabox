@@ -1,0 +1,231 @@
+@charset "utf-8";
+
+/* 여백 초기화 */
+body,div,ul,li,dl,dd,dt,ol,h1,h2,h3,h4,h5,h6,input,fieldset,legend,p,select,table,th,td,tr,textarea,button,form, figure, figcaption{margin: 0; padding: 0;}
+
+/* a 링크 초기화 */
+a{color: #222; text-decoration: none;}
+a:hover{color: #390;}
+
+/*폰트 초기화*/
+body, input, textarea, select, button, table{font-family:'Noto Sans KR', 'Nanum Gothic', AppleSDGothicNeo-Regular, 'Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif; color: #222; font-size: 13px; line-height: 1.5;}
+
+/*폰트 스타일 초기화*/
+em, address {font-style: normal;}
+
+/* 블릿기호 초기화 */
+ul, li, ol{list-style:none;}
+
+/*제목 태그 초기화*/
+h1, h2, h3, h4, h5, h6 {font-size: 13px; font-weight: normal;}
+
+/* 테두리 초기화*/
+img, fieldset{border:0 none;}
+
+/*버튼 초기화*/
+button{border: 0;}
+
+/*반응형*/
+video, img{width: 100%;}
+
+/*표 초기화*/
+table{border-spacing: 0;}
+
+/* textarea 초기화*/
+textarea{display: block; width: 100%; padding: 10px; border: 1px solid #dbdbdb; background: #f8f8f8; color:#333;}
+
+/*clearfix*/
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content:""; line-height: 0;}
+.clearfix:after{clear:both;}
+
+/* IR 효과 */
+.ir_pm{display:block; overflow: hidden; font-size:0; line-height:0; text-indent:-9999px;} /*의미있는 텍스트를 제공하는 경우(Phark Method)*/
+.ir_wa{display: block; overflow: hidden; position: relative; z-index:-1; width:100%; height: 100%;} /*의미있는 이미지의 대체 텍스트로 이미지가 없어도 대체 텍스트를 보여주고자 할 때(WA IR)*/
+.ir_su{overflow: hidden; position:absolute; width:0; height:0; line-height:0; text-indent:-9999px;} /* 대체 텍스트가 아닌 접근성을 위한 숨김 텍스트를 제공할 때 */
+
+/* margin, padding*/
+.mt0{margin-top: 0px !important;}
+.mt5{margin-top: 5px !important;}
+.mt10{margin-top: 10px !important;}
+.mt15{margin-top: 15px !important;}
+.mt20{margin-top: 20px !important;}
+.mt25{margin-top: 25px !important;}
+.mt30{margin-top: 30px !important;}
+.mt35{margin-top: 35px !important;}
+.mt40{margin-top: 40px !important;}
+.mt45{margin-top: 45px !important;}
+.mt50{margin-top: 50px !important;}
+
+.mr0{margin-right: 0px !important;}
+.mr5{margin-right: 5px !important;}
+.mr10{margin-right: 10px !important;}
+.mr15{margin-right: 15px !important;}
+.mr20{margin-right: 20px !important;}
+.mr25{margin-right: 25px !important;}
+.mr30{margin-right: 30px !important;}
+
+.ml0{margin-left: 0px !important;}
+.ml5{margin-left: 5px !important;}
+.ml10{margin-left: 10px !important;}
+.ml15{margin-left: 15px !important;}
+.ml20{margin-left: 20px !important;}
+.ml25{margin-left: 25px !important;}
+.ml30{margin-left: 30px !important;}
+
+.mb0{margin-bottom: 0px !important;}
+.mb5{margin-bottom: 5px !important;}
+.mb10{margin-bottom: 10px !important;}
+.mb15{margin-bottom: 15px !important;}
+.mb20{margin-bottom: 20px !important;}
+.mb25{margin-bottom: 25px !important;}
+.mb30{margin-bottom: 30px !important;}
+
+.pt0{padding-top: 0px !important;}
+.pt5{padding-top: 5px !important;}
+.pt10{padding-top: 10px !important;}
+.pt15{padding-top: 15px !important;}
+.pt20{padding-top: 20px !important;}
+.pt25{padding-top: 25px !important;}
+.pt30{padding-top: 30px !important;}
+.pt35{padding-top: 35px !important;}
+.pt40{padding-top: 40px !important;}
+.pt45{padding-top: 45px !important;}
+.pt50{padding-top: 50px !important;}
+
+.pr0{padding-right: 0px !important;}
+.pr5{padding-right: 5px !important;}
+.pr10{padding-right: 10px !important;}
+.pr15{padding-right: 15px !important;}
+.pr20{padding-right: 20px !important;}
+.pr25{padding-right: 25px !important;}
+.pr30{padding-right: 30px !important;}
+
+.pl0{padding-left: 0px !important;}
+.pl5{padding-left: 5px !important;}
+.pl10{padding-left: 10px !important;}
+.pl15{padding-left: 15px !important;}
+.pl20{padding-left: 20px !important;}
+.pl25{padding-left: 25px !important;}
+.pl30{padding-left: 30px !important;}
+
+.pb0{padding-bottom: 0px !important;}
+.pb5{padding-bottom: 5px !important;}
+.pb10{padding-bottom: 10px !important;}
+.pb15{padding-bottom: 15px !important;}
+.pb20{padding-bottom: 20px !important;}
+.pb25{padding-bottom: 25px !important;}
+.pb30{padding-bottom: 30px !important;}
+
+.tac{text-align: center;}
+
+/*bar*/
+.bar{position: relative; padding-right: 22px;}
+.bar:after{
+    content:"";
+    position: absolute; right: 10px; top: 5px; 
+    width: 1px; height: 12px;
+    background: #cdcdcd;
+}
+
+/*input style*/
+
+.ui_select1{/*셀렉트 메뉴 로그인 스타일*/
+    background: #f8f8f6; height: 26px; border: 1px solid #d9d9d9; 
+    padding: 0 5px;
+}
+
+
+.ui_select2{/*셀렉트 메뉴 메인 스타일*/
+    width: 100%; box-sizing: border-box;
+    background: #2c2f34; color:#fff; 
+    display: inline-block; height: 36px; margin: 0; padding: 0 10px; 
+    vertical-align: middle; text-align: left; white-space: nowrap;
+    font-family: inherit; font-size: inherit; border: 0 none;
+    background: #2c2f34 url(../img/down.svg) no-repeat right 10px center;
+    background-size: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.ui_select3 {/*셀렉트 메뉴 소형 스타일*/
+    background-image: linear-gradient(to top, #fdfdfd 0%, #f2f2f2 100%);
+    border-radius: 5px; font-weight: 300; padding: 0 2px; color: #827b83;
+}
+
+
+.ui_input1{/*텍스트 박스 스타일1*/
+    border: 1px solid #d9d9d9; width: 200px; height: 26px; 
+    font-size: 13px; text-indent: 14px; background: #f8f8f8;
+    vertical-align: middle; 
+}
+
+.ui_input2{/*로그인 텍스트 박스 스타일1*/
+    border: 1px solid #d9d9d9; width: 100px; height: 26px; 
+    font-size: 13px; text-indent: 14px; background: #f8f8f8;
+    vertical-align: middle; 
+}
+
+.ui_input3{/*메인 텍스트 박스 스타일1*/
+    background: #2c2f34; color:#fff; 
+    border: 0; width: 100%; height: 36px; padding: 0 10px;
+}
+
+.ui_input4{/*텍스트 박스 스타일2*/
+    border: 1px solid #d9d9d9; width: 50px; height: 26px; 
+    font-size: 13px; text-indent: 14px; background: #f8f8f8;
+    vertical-align: middle; 
+}
+
+.ui_input5 {/* 검색 텍스트 박스 스타일 */
+    background: #fff; padding-left: 10px; font-size: 15px; font-weight: 300; color: #666;
+}
+.form_inline .form_group{display: inline-block; vertical-align: middle;}
+
+/*button style*/
+.btn_s1{border: 1px solid #503396; padding: 7px 20px; background: transparent; color: #503396; transition: all 0.3s ease;}
+.btn_s1:hover{background: #503396; color: #ffffff; cursor: pointer;}
+
+.btn_s2{background: #503396; cursor: pointer; color:#fff; padding: 10px 50px; font-size: 16px;}
+
+.btn_s3{background: #503396; cursor: pointer; color: #fff; padding: 3px 50px;
+    font-size: 13px;}
+
+/*table_style1 : 로그인*/
+.table_style1 .table{width: 100%; border-top: 2px solid #503396; border-bottom: 2px solid #d2d2d2;}
+.table_style1 .table th{text-align: left; font-weight: normal; padding: 10px 20px; border-bottom: 1px solid #dbdbdb; background: #f1f1f1;}
+.table_style1 .table td{padding: 10px 20px; border-bottom: 1px solid #dbdbdb;}
+
+/*table_style2 : 게시판*/
+.table_style2 .table{width: 100%; border-top: 2px solid #503396; border-bottom: 2px solid #d2d2d2;}
+.table_style2 .table thead th{background: #f8f8f8; color: #333; padding: 13px 20px; border-bottom: 1px solid #d9d9d9; text-align: left;}
+.table_style2 .table tbody td{padding: 13px 20px; border-bottom: 1px solid #d9d9d9; color:#666; font-weight: 400;}
+.table_style2 .table .ce{text-align: center;}
+.table_style2 .table tbody .gray{padding: 13px 20px; background: #f8f8f8; border-bottom: 1px solid #d9d9d9; color:#666;}
+
+/* table_style3 : 멤버십 */
+.table_style3 .table {font-size: 16px; border-top: 2px solid #503396;}
+
+.table_style3 caption {background: #7A67AC; padding: 10px 20px 10px 20px; text-align: left; color: #fff; font-weight: 500;}
+
+.table_style3 .table thead {border-top: 2px solid #503396;}
+.table_style3 .table thead th {padding: 10px 0 10px 0; border-bottom: 1px solid #d9d9d9; border-right: 1px solid #d9d9d9; background: #f2f2f2;}
+
+.table_style3 .table tbody {text-align: center;}
+.table_style3 .table tbody td {padding: 20px; border-bottom: 1px solid #d9d9d9; border-right: 1px solid #d9d9d9; color: #666;}
+
+.table_style3 .name {text-align: left; font-weight: 500;}
+.table_style3 .ta_left {text-align: left;}
+
+.table_style3 i{color: #58A6AF;}
+.table_style3 span {color: #58A6AF;}
+.table_style3 em {color: #58A6AF;}
+
+.table_style3 p em{font-size: 12px; padding-left: 10px; color: #000; font-weight: 100;}
+.table_style3 p {font-size: 12px; color: #000; font-weight: 100; padding-bottom: 0;}
+
+
+/*폰트 스타일 재구성*/
+.refont1{font-size: 14px; font-weight: 100; padding: 0 5px !important;}
+.refont2{font-size: 14px; font-weight: 100; padding: 0 15px}
+.refont3{font-size: 14px; font-weight: 100;}
